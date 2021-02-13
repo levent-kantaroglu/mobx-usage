@@ -1,11 +1,11 @@
 class Note {
-  String text;
+  String title;
   DateTime dateTime;
   bool isPinned;
   bool isArchived;
 
   Note({
-    this.text,
+    this.title,
     this.isPinned,
     this.dateTime,
     this.isArchived,
